@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white">
-      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       
       <header className="relative container mx-auto px-4 py-16">
         <motion.h1 
@@ -33,7 +33,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Full Stack Developer & Blockchain Specialist
+          Full Stack Developer &amp; Blockchain Specialist
         </motion.h2>
       </header>
 
@@ -72,7 +72,7 @@ export default function Home() {
                 As a versatile Full Stack Developer and Blockchain Specialist, I bring a unique blend of technical expertise and entrepreneurial spirit to every project. My approach combines cutting-edge technology with strategic thinking, resulting in robust, scalable solutions that not only meet but exceed expectations.
               </p>
               <p className="text-gray-300">
-                My experience in domain management significantly enhances my ability to create user-friendly, marketable products that stand out in today's competitive digital landscape.
+                My experience in domain management significantly enhances my ability to create user-friendly, marketable products that stand out in today&apos;s competitive digital landscape.
               </p>
             </div>
           )}
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="bg-blue-500 p-3 rounded-full">
                     <Database className="w-6 h-6" />
                   </div>
-                  <span>Blockchain & Smart Contract Development</span>
+                  <span>Blockchain &amp; Smart Contract Development</span>
                 </li>
                 <li className="flex items-center space-x-4">
                   <div className="bg-blue-500 p-3 rounded-full">
@@ -109,13 +109,21 @@ export default function Home() {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-2xl font-medium mb-2 text-emerald-400">DistriButler</h4>
-                  <p className="text-gray-300 mb-2">An innovative platform revolutionizing distribution processes with cutting-edge technology and user-centric design.</p>
-                  <a href="https://distributler.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Learn More</a>
+                  <p className="text-gray-300 mb-2">
+                    An innovative platform revolutionizing distribution processes with cutting-edge technology and user-centric design.
+                  </p>
+                  <a href="https://distributler.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                    Learn More
+                  </a>
                 </div>
                 <div>
                   <h4 className="text-2xl font-medium mb-2 text-emerald-400">CatBreedID</h4>
-                  <p className="text-gray-300 mb-2">State-of-the-art AI-powered application for instant and accurate cat breed identification, pushing the boundaries of machine learning.</p>
-                  <a href="https://catbreedid.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Explore Project</a>
+                  <p className="text-gray-300 mb-2">
+                    State-of-the-art AI-powered application for instant and accurate cat breed identification, pushing the boundaries of machine learning.
+                  </p>
+                  <a href="https://catbreedid.com/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                    Explore Project
+                  </a>
                 </div>
               </div>
             </div>
@@ -147,7 +155,9 @@ export default function Home() {
                   <div className="bg-blue-500 p-3 rounded-full">
                     <Globe className="w-6 h-6" />
                   </div>
-                  <a href="https://www.bendlala.com" className="hover:text-blue-400 transition-colors" target="_blank" rel="noopener noreferrer">www.bendlala.com</a>
+                  <a href="https://www.bendlala.com" className="hover:text-blue-400 transition-colors" target="_blank" rel="noopener noreferrer">
+                    www.bendlala.com
+                  </a>
                 </motion.li>
               </ul>
             </div>
